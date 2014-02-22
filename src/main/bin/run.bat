@@ -1,0 +1,1 @@
+java -jar gitcc4j.jar rebase C:\DEV\git\test

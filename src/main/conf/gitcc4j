@@ -1,0 +1,9 @@
+[core]
+include = build
+tempDir = C:\DEV\git\temp\
+type = CMD
+suffix = suffix.com
+
+[master]
+clearcase = V:\clearcase\view_1\src
+branches = main
