@@ -1,4 +1,17 @@
-﻿=======
+﻿=================
+gitcc4j version 2
+=================
+This is Git/Clearcase bridge which was written based on the code of charleso's gitcc4j.
+In the version was added CMD option for ClearCase that is used cleartool via command line.
+It means that you can choose either of modes: CMD, RC or UMC.
+Also many errors were fixed in the code, for example:
+  - sometimes Runtime.exec() can hang (see article: http://www.javaworld.com/article/2071275/core-java/when-runtime-exec---won-t.html)
+  - attempt to put not existing directory in git control
+  - problems with parsing paths for "\" file separator
+  and so on
+Note: CMD mode can't switch user in checkin moment to ClearCase like RC or UMC modes.
+
+=======
 gitcc4j
 =======
 
